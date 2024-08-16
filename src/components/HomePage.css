@@ -1,0 +1,167 @@
+/* body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .AppBar {
+    margin-bottom: 20px;
+  }
+  
+  .Container {
+    padding: 20px;
+    
+  } */
+  /* .homepage {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+   */
+  /* .auth-container {
+    /* background-color: #ffffff; */
+    /* padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  } */
+   */
+  /* .success-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .success-icon {
+    color: green;
+    margin-right: 8px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .AppBar {
+    margin-bottom: 20px;
+  }
+  
+  .Container {
+    padding: 20px;
+    background-image: url("C:\Users\Admin\Downloads\Designer.png");
+  }
+  
+  .Box {
+    margin: 20px 0;
+  }
+  
+  .Paper {
+    padding: 20px;
+    text-align: center;
+  }
+   */
+   /* HomePage.css */
+
+/* Global light pink theme background */
+/* HomePage.css */
+
+/* Global light pink theme background */
+body {
+  background-color: #e5a0cd;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation bar styling */
+.appBar {
+  background-color: #fff !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navButton {
+  margin: 0 10px;
+  color: #000;
+  text-transform: none;
+}
+
+.navButton:hover {
+  color: red;
+}
+
+.workflowManager {
+  font-family: 'cursive';
+  font-size: 1.5rem;
+  color: #000;
+}
+
+/* Form and content styling */
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.gridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.form {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rightContent {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the form and right content areas */
+.rightContentText {
+  color: #333;
+}
+
+.rightContentText strong {
+  font-weight: bold;
+}
+
+.rightContentText a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.rightContentText a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the links and footer */
+.footerLinks {
+  color: #333;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.footerLinks:hover {
+  text-decoration: underline;
+}
+
+.footerText {
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,140 @@
+/* body{
+  background-color: rgb(187, 224, 237);
+} */
+.auth-container {
+  /* background-image: url("C:\Users\Admin\Downloads\pexels-hngstrm-1939485.jpg");
+  background-size: cover; */
+  display: flex;
+  /* background-color: lightblue; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures full viewport height */
+  padding: 20px 0; /* Adds space above and below the container */
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1200px; /* Maximum width for the container */
+  gap: 0; /* Removes gap between left and right sections */
+}
+
+.left-section, .right-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 4%;
+  
+}
+
+/* .left-section{
+  background-image: url("C:\Users\Admin\Downloads\pexels-hngstrm-1939485.jpg");
+}
+.right-section{
+  background-image: url("C:\Users\Admin\Downloads\pexels-hngstrm-1939485.jpg");
+} */
+
+.card-container {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.success-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.success-icon {
+  color: green;
+}
+/* .left-section{
+  background-image: url("G:\workflow-manager\frontend\src\components\5024147.jpg");
+} */
+.auth-paper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  min-height: 400px; /* Set a minimum height */
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  .auth-paper {
+    min-height: 500px; /* Increase minimum height for larger screens */
+  }
+}
+
+
+
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.progress-chart, .task-list {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.chart-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chart {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.chart-placeholder {
+  color: #888;
+  font-size: 16px;
+}
+.about-us-background{
+  background-color: white;
+}

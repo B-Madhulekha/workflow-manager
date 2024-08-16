@@ -1,0 +1,57 @@
+
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  .dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .progress-chart, .task-list {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  
+  .chart-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Example styles for a chart */
+  .chart {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .chart-placeholder {
+    font-size: 16px;
+    color: #999;
+  }
+  
+  .task-list {
+    padding: 20px;
+  }
+  
+  .task-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
